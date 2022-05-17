@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssMemSlider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div><a class="link-pr" href="https://github.com/gladdaria/cssMemSlider/pull/1" target="_blank">Ссылка на pull request</a></div>
+    <div class="slider">
+      <input type="radio" name="toggle" id="slide1" checked>
+      <input type="radio" name="toggle" id="slide2">
+      <input type="radio" name="toggle" id="slide3">
+      <input type="radio" name="toggle" id="slide4">
+      <div id="slides-inner">
+        <div class="slider-images">
+          <div class="slide-image">
+            <img src="./assets/img/1.jpeg" alt="Кот-программист">
+          </div>
+          <div class="slide-image">
+            <img src="./assets/img/2.jpeg" alt="Кот думает">
+          </div>
+          <div class="slide-image">
+            <img src="./assets/img/3.jpeg" alt="Арийский кот">
+          </div>
+          <div class="slide-image">
+            <img src="./assets/img/4.jpeg" alt="Кот и часы">
+          </div>
+        </div>
+      </div>
+      <div class="slider-text">
+        <div id="text-container">
+          <div class="text-content">
+            <div class="slide-text">
+              <p>Происходит кот-ревью</p>
+            </div>
+            <div class="slide-text">
+              <p>Когда скопировал в точности такой же код, как в уроке, и он не работает. </p>
+            </div>
+            <div class="slide-text">
+              <p>Нам нужен только чистый код</p>
+            </div>
+            <div class="slide-text">
+              <p>Настало время выпрямить спину</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <label class="radio-btn" for="slide1"><span></span></label>
+          <label class="radio-btn" for="slide2"><span></span></label>
+          <label class="radio-btn" for="slide3"><span></span></label>
+          <label class="radio-btn" for="slide4"><span></span></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
