@@ -149,6 +149,16 @@ input {
     border: 0.1rem solid #ffffff;
 }
 
+.link-pr {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.link-pr:hover {
+    color: #f0c666;
+}
+
 @media (max-width: 767px) {
     .slide-image {
         padding: 0.5rem;
